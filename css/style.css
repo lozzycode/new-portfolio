@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    font-family: helvetica;
+  }
+  
+  html, body {
+    margin: 0;
+    background-image: linear-gradient(144deg,#b2bcb5, #273328 50%,#061009);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+
+  .header {
+    background-image: linear-gradient(144deg,#061009, #273328 50%,#b3bab3);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0;
+    padding-bottom: 6px;
+    /* border: solid 1px red; */
+  }
+
+  .loz-pic-container{
+    /* border: solid 1px green; */
+    padding-left: 20px;
+    padding-bottom: 6px;
+  }
+
+  .loz-pic {
+    width: 80px;
+    border-radius: 30%;
+  }
+
+  .name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .heading-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 10px;
+    padding-bottom: 20px;
+    /* border: solid 1px yellow; */
+  }
+
+  .heading-content h2{
+    margin: 0;
+    padding-bottom: 5px;
+    /* border-bottom: solid 1px yellow; */
+  }
+
+  .heading-content h3{
+    margin: 0;
+    color: #b3bab3;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    padding-bottom: 10px;
+    /* border: solid 1px red; */
+  }
+
+  .navigation .links {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .nav-link {
+    display: flex;
+    background-image: linear-gradient(144deg,#b2bcb5, #273328 50%,#b3bab3);
+    background-color: #343a40;
+    color: white;
+    text-decoration: none;
+    padding: 6px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-bottom: solid 1px #273328;
+    margin-right: 8px;
+  }
+  
+  .nav-link:hover {
+    border-bottom: solid 1px #0df820;
+  }
+
+  .nav-link:active {
+    border-bottom: 0;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+    /* border: solid 1px red; */
+  }
+
+  .title {
+    color: #273328;
+  }
+  
+  .columns {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    /* border: solid 1px pink; */
+  }
+
+  .intro {
+    margin-bottom: 10px;
+  }
+
+  .intro, .columns {
+    line-height: 1.5;
+  }
+
+  h4 {
+    margin: 0;
+  }
+  
+  .columns, .websites {
+    background-image: linear-gradient(144deg,#061009, #273328 50%,#b3bab3);
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    /* border: solid 1px yellow; */
+  }
+
+  /* .contact.reverse-gradient {
+    background-image: linear-gradient(144deg,#b2bcb5, #273328 50%,#061009);
+    padding: 0;
+    margin: 0;
+  } */
+
+  .websites a {
+    color: white;
+    text-decoration: none;
+    line-height: 1.5;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    line-height: 1.5;
+  }
+
+  .form-grid {
+    background-image: linear-gradient(144deg,#061009, #273328 50%,#b3bab3);
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px 20px;
+    width: 100%;
+    max-width: 1000px;
+    /* margin: 30px 0; */
+    border-radius: 5px;
+    padding: 20px;
+    /* border: solid 1px red; */
+  }
+
+  .form-grid .submit {
+    background-color: rgb(247, 116, 10);
+    color: white;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 200px;
+    justify-self: center;
+  }
+
+  footer {
+    color: white;
+    background-image: linear-gradient(144deg,#061009, #273328 50%,#b3bab3);
+    background-color: black;
+    font-size: 15px;
+    padding: 10px 80px;
+    margin-top: auto;
+  }
+
+  @media only screen and (max-width: 768px) {
+    header {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content:center;
+    }
+    .heading-content {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      /* border: solid 1px yellow; */
+    }
+  
+    }

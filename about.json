@@ -1,0 +1,13 @@
+{
+   "about": [
+     {
+       "name": "Laurence Paynter",
+       "occupation": "Web developer",
+       "previousitroles": ["IT trainer", " Technical support", " PC engineer", " Web designer"],
+       "qualifications": ["A level Art & Design", " Foundation Fine Art", " Diploma Applied Science", " Comptia A+",
+       " NVQ Level 4 Implementing and Managing Corporate ICT Networks", 
+       " BSc(Hons) Biomedical Sciences with Nutrition", " BSc(Hons) Herbal Medicine"],
+       "hobbies": ["Chess", " Drawing", " Strength training"]
+     }
+   ]
+ }
